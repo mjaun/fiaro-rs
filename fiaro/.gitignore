@@ -1,0 +1,5 @@
+.settings/
+target/
+libs_arm/*.o
+libs_arm/*.rlib
+Cargo.lock
