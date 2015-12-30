@@ -6,7 +6,7 @@ mkdir target\thumbv7m-none-eabi 2>nul
 rustc -C opt-level=2 -Z no-landing-pads -g -L libs_arm ^
 --target thumbv7m-none-eabi ^
 --crate-type lib ^
---crate-name blinky_rust ^
+--crate-name fiaro ^
 --out-dir target/thumbv7m-none-eabi ^
 --emit obj,link ^
 src/lib_target.rs

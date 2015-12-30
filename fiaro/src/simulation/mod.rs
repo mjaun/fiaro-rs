@@ -1,4 +1,4 @@
-use blinky_rust::BoardApi;
+use fiaro::BoardApi;
 
 pub struct Simulation;
 

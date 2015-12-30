@@ -1,9 +1,9 @@
-mod blinky_rust;
+mod fiaro;
 mod simulation;
 
 use simulation::Simulation;
 
 fn main() {
 	let mut api = Simulation::new();
-	blinky_rust::run(&mut api);
+	fiaro::run(&mut api);
 }

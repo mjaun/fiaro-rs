@@ -7,12 +7,12 @@
 extern crate collections;
 
 pub mod target;
-pub mod blinky_rust;
+pub mod fiaro;
 
 use target::Target;
 
 #[no_mangle]
 pub extern fn rust_main() {
 	let mut api = Target::new();
-	blinky_rust::run(&mut api);
+	fiaro::run(&mut api);
 }
