@@ -7,3 +7,8 @@ authors = [ "Your name <you@example.com>" ]
 [[bin]]
 
 name = "fiaro"
+path = "src/main_sim.rs"
+
+[dependencies]
+
+sdl2 = "*"

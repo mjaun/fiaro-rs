@@ -9,7 +9,7 @@ extern crate collections;
 pub mod target;
 pub mod fiaro;
 
-use target::Target;
+use arm::Target;
 
 #[no_mangle]
 pub extern fn rust_main() {

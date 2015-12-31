@@ -506,4 +506,5 @@
 			<resource resourceType="PROJECT" workspacePath="/blinky_rust_bootstrapper"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

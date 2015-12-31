@@ -1,0 +1,1 @@
+Place SDL2 Library Files (.dll, .a) here.
