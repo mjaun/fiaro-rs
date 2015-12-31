@@ -1,5 +1,7 @@
-.settings/
-target/
-libs_arm/*.o
-libs_arm/*.rlib
-Cargo.lock
+/.settings/
+/target/
+/libs_arm/*.o
+/libs_arm/*.rlib
+/libs_sim/*.a
+/libs_sim/*.dll
+/Cargo.lock
