@@ -11,4 +11,4 @@ rustc -C opt-level=0 -g -Z no-landing-pads -L libs_arm ^
 --crate-name fiaro ^
 --emit obj ^
 --out-dir target/thumbv7m-none-eabi ^
-src/lib_target.rs
+src/main_arm.rs

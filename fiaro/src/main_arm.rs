@@ -6,7 +6,7 @@
 
 extern crate collections;
 
-pub mod target;
+pub mod arm;
 pub mod fiaro;
 
 use arm::Target;
