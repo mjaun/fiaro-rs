@@ -3,6 +3,7 @@
 	<name>fiaro_boot</name>
 	<comment></comment>
 	<projects>
+		<project>fiaro</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
