@@ -1,12 +1,16 @@
-extern crate sdl2;
+#![feature(convert)]
 
 mod sim;
 mod fiaro;
 
+extern crate sdl2;
+
 use sim::Simulation;
+use fiaro::Fiaro;
 
 fn main() {
-	let ctx = sdl2::init().unwrap();
-	let mut api = Simulation::new(&ctx);
-	fiaro::run(&mut api);
+	let simulation = Simulation::new();
+	let mut fiaro = Fiaro::new(&simulation);
+	
+	simulation.run(&mut fiaro);
 }
